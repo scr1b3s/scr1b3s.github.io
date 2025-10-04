@@ -1,0 +1,38 @@
+{
+  "posts": [],
+  "pages": [
+    "/about.html",
+    "/pages.html"
+  ],
+  "tags": [],
+  "authors": [],
+  "series": [],
+  "streams": [],
+  "archives": [],
+  "feeds": [],
+  "pagination": [
+    "/pages-1.html"
+  ],
+  "file_mappings": [],
+  "misc": [
+    "/index.html"
+  ],
+  "summary": {
+    "posts": 0,
+    "pages": 2,
+    "tags": 0,
+    "authors": 0,
+    "series": 0,
+    "streams": 0,
+    "archives": 0,
+    "feeds": 0,
+    "pagination": 1,
+    "file_mappings": 0,
+    "misc": 1,
+    "total": 4,
+    "meta": {
+      "url": "",
+      "absolute_urls": false
+    }
+  }
+}
