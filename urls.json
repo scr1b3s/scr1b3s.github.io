@@ -1,35 +1,67 @@
 {
-  "posts": [],
+  "posts": [
+    "/blog-pessoal-o-que-foi-feito.html"
+  ],
   "pages": [
     "/about.html",
     "/pages.html"
   ],
-  "tags": [],
-  "authors": [],
-  "series": [],
-  "streams": [],
-  "archives": [],
-  "feeds": [],
+  "tags": [
+    "/tag-projetos.html",
+    "/tag-diarios.html",
+    "/tag-devops.html",
+    "/tags.html"
+  ],
+  "authors": [
+    "/author-kobamaru.html",
+    "/authors.html"
+  ],
+  "series": [
+    "/series-blog.html",
+    "/series.html"
+  ],
+  "streams": [
+    "/streams.html"
+  ],
+  "archives": [
+    "/archive-2025.html",
+    "/archive.html"
+  ],
+  "feeds": [
+    "/index.rss",
+    "/series-blog.rss",
+    "/tag-projetos.rss",
+    "/tag-diarios.rss",
+    "/tag-devops.rss",
+    "/author-kobamaru.rss",
+    "/archive-2025.rss"
+  ],
   "pagination": [
-    "/pages-1.html"
+    "/pages-1.html",
+    "/tag-projetos-1.html",
+    "/tag-diarios-1.html",
+    "/tag-devops-1.html",
+    "/author-kobamaru-1.html",
+    "/series-blog-1.html",
+    "/archive-2025-1.html"
   ],
   "file_mappings": [],
   "misc": [
     "/index.html"
   ],
   "summary": {
-    "posts": 0,
+    "posts": 1,
     "pages": 2,
-    "tags": 0,
-    "authors": 0,
-    "series": 0,
-    "streams": 0,
-    "archives": 0,
-    "feeds": 0,
-    "pagination": 1,
+    "tags": 4,
+    "authors": 2,
+    "series": 2,
+    "streams": 1,
+    "archives": 2,
+    "feeds": 7,
+    "pagination": 7,
     "file_mappings": 0,
     "misc": 1,
-    "total": 4,
+    "total": 29,
     "meta": {
       "url": "",
       "absolute_urls": false

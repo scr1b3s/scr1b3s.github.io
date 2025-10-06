@@ -1,13 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/blog-pessoal-o-que-foi-feito.html</loc>
+  </url>
+  <url>
     <loc>/about.html</loc>
   </url>
   <url>
     <loc>/pages.html</loc>
   </url>
   <url>
+    <loc>/tag-projetos.html</loc>
+  </url>
+  <url>
+    <loc>/tag-diarios.html</loc>
+  </url>
+  <url>
+    <loc>/tag-devops.html</loc>
+  </url>
+  <url>
+    <loc>/tags.html</loc>
+  </url>
+  <url>
+    <loc>/author-kobamaru.html</loc>
+  </url>
+  <url>
+    <loc>/authors.html</loc>
+  </url>
+  <url>
+    <loc>/series-blog.html</loc>
+  </url>
+  <url>
+    <loc>/series.html</loc>
+  </url>
+  <url>
+    <loc>/streams.html</loc>
+  </url>
+  <url>
+    <loc>/archive-2025.html</loc>
+  </url>
+  <url>
+    <loc>/archive.html</loc>
+  </url>
+  <url>
+    <loc>/index.rss</loc>
+  </url>
+  <url>
+    <loc>/series-blog.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-projetos.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-diarios.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-devops.rss</loc>
+  </url>
+  <url>
+    <loc>/author-kobamaru.rss</loc>
+  </url>
+  <url>
+    <loc>/archive-2025.rss</loc>
+  </url>
+  <url>
     <loc>/pages-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-projetos-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-diarios-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-devops-1.html</loc>
+  </url>
+  <url>
+    <loc>/author-kobamaru-1.html</loc>
+  </url>
+  <url>
+    <loc>/series-blog-1.html</loc>
+  </url>
+  <url>
+    <loc>/archive-2025-1.html</loc>
   </url>
   <url>
     <loc>/index.html</loc>

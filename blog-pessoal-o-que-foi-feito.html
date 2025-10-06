@@ -7,13 +7,16 @@
     <meta name="color-scheme" content="light dark" />
     <meta name="generator" content="Marmite" />
     
-<meta property="og:title" content="Page not found">
+<meta property="og:title" content="Blog Pessoal: O que foi feito">
 
-<meta property="og:description" content=" :/">
+<meta property="og:description" content="Primeira postagem sobre o desenvolvimento de competências a partir dos assuntos cobertos pelo lançam...">
+
 
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Diário de um Escriba">
+
+<meta property="article:published_time" content=" 2025-10-05T00:00:00+00:00">
 
 
 
@@ -23,13 +26,17 @@
     "@type": "BlogPosting",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/404.html"
+        "@id": "/blog-pessoal-o-que-foi-feito.html"
     },
-    "url": "/404.html",
-    "headline": "Page not found",
-    "description": " :/",
+    "url": "/blog-pessoal-o-que-foi-feito.html",
+    "headline": "Blog Pessoal: O que foi feito",
+    "description": "Primeira postagem sobre o desenvolvimento de competências a partir dos assuntos cobertos pelo lançamento deste blog.",
     
-    
+    "author": {
+        "@type": "Person",
+        "name": "Kobamaru",
+        "url": "/author-kobamaru.html",
+    },
     "publisher": {
         "@type": "Organization",
         "name": "Diário de um Escriba",
@@ -38,12 +45,12 @@
             "url": "/"
         }
     },
-    
+    "datePublished": "2025-10-05T00:00:00+00:00"
 }
 </script>
 
 
-    <title>Page not found | Diário de um Escriba</title>
+    <title>Blog Pessoal: O que foi feito | Diário de um Escriba</title>
     <link rel="stylesheet" type="text/css" href="/static/pico.min.css">
     <link rel="stylesheet" type="text/css" href="/static/marmite.css">
     
@@ -165,8 +172,10 @@
 
 
 <article class="h-entry">
-  <data class="p-name" value="Page not found"></data>
-  <a class="u-url" href="/404.html" style="display: none;"></a>
+  <data class="p-name" value="Blog Pessoal: O que foi feito"></data>
+  <a class="u-url" href="/blog-pessoal-o-que-foi-feito.html" style="display: none;"></a>
+  
+  <time class="dt-published" datetime="2025-10-05T00:00:00+00:00" style="display: none;">Oct  5, 2025</time>
   
 
   
@@ -175,26 +184,123 @@
 
 
 <div class="content-title" id="title">
-    <h1>Page not found</h1> 
+    <h1>Blog Pessoal: O que foi feito</h1> 
     
 
 
 <span class="content-date">
-    <small></small>
+    <small> Oct  5, 2025 - &#10710; 2 min</small>
 </span>
 
 </div>
 
   
+  <div class="content-series">
+    <p><small>Published as part of '<a href="/series-blog.html">Blog Pessoal: A Jornada de partilhar conhecimento.</a>' series.</small></p>
+  </div>
+  
+  
+  <div class="content-toc">
+    <a href="#" id="toc"></a>
+    <details>
+    <summary>🗒️</summary>
+    <ul>
+<ul>
+<li><a href="#composição-do-projeto">Composição do Projeto:</a></li>
+<li><a href="#fluxo-de-funcionamento">Fluxo de Funcionamento:</a></li>
+<li><a href="#considerações">Considerações:</a></li>
+</ul>
+</ul>
+
+    </details>
+  </div>
   
 
-  <div class="content-html e-content">Page not found :/</div>
+  <div class="content-html e-content"><blockquote>
+<p><em>Postagem que serve, basicamente, para que eu possa ter uma visão esquemática do que foi feito com relação ao lançamento/finalização do Projeto &quot;Diário do Escriba&quot;... Porque eu fiz muita coisa na marra, bruteforce, e eu preciso &quot;voltar e buscar&quot;.</em></p>
+</blockquote>
+<h2><a href="#composição-do-projeto" aria-hidden="true" class="anchor" id="composição-do-projeto"></a>Composição do Projeto:</h2>
+<ol>
+<li><em><strong>GitHub Actions:</strong></em> Coordena e Executa o Pipeline de deploy do blog.</li>
+<li><em><strong>Secrets do GitHub:</strong></em> Entregam as credenciais necessárias para que as coisas possam ser feitas, sem eles eu não teria permissão para nada.</li>
+<li><em><strong>Docker:</strong></em> Construímos uma imagem de container personalizada para a subida do blog... Isso se deu porque eu tenho muita ansiedade e odeio ter que esperar 4 minutos para o <code>marmite</code> ser baixado.</li>
+<li>2 Repositórios: Um, minha <code>vault</code> do Obsidian, usada para anotações e reflexões diversas... E outro, a minha <code>home</code> do pages, que é quem &quot;sofre&quot; as consequências da execução do deploy do <code>marmite</code>.</li>
+</ol>
+<h2><a href="#fluxo-de-funcionamento" aria-hidden="true" class="anchor" id="fluxo-de-funcionamento"></a>Fluxo de Funcionamento:</h2>
+<ul>
+<li>Sempre que ocorre um <code>push</code> que acarreta alterações na pasta <code>5_blog</code> (onde eu armazeno o arquivo de configuração e os posts) o <strong>pipeline</strong> é disparado.</li>
+<li>Ele é executado a partir de uma imagem de container própria, uma <code>jammy</code> contendo <code>git</code> e o <code>marmite</code>... isso me economiza valiosos <strong>4 minutos em média.</strong></li>
+<li>O <strong>pipeline</strong> em si é simples:
+<ul>
+<li>Fazemos checkout do repositório de execução, a <code>vault</code> e do <code>pages-repo</code> que é o repositório que contém/conterá o blog...</li>
+<li>Executamos: <code>marmite &lt;onde-os-posts-estão&gt; &lt;onde-eu-quero-construir&gt; --debug</code>.</li>
+<li>Fazemos o <code>commit</code> dos arquivos gerados.</li>
+</ul>
+</li>
+</ul>
+<h2><a href="#considerações" aria-hidden="true" class="anchor" id="considerações"></a>Considerações:</h2>
+<p>Acredito que esse seja um projeto muito legal para começar a desenvolver/rascunhar conhecimentos e prática no campo de DevOps... Por isso, apesar de ser um projeto concluído, o destrinchar dele está ligado ao aprofundamento de algumas coisas importantes... Eventualmente vou voltar pra ele.</p>
+<p>Algo muito bom é que o <code>marmite</code> faz um inventário por mim, arquivos que foram alterados são substituídos e a facilidade/comodidade disso é incrível. Não quero me preocupar com muitas coisas, só escrever, estudar, e desenvolver. Se for interessante, no futuro, posso substituir ele por uma solução própria, mas eu acho difícil isso acontecer.</p>
+</div>
+  
+  <footer class="data-tags-footer">
+
+    <div class="content-authors-flex">
+      <div class="content-authors-full">
+        
+<div class="content-authors">
+    <ul>
+        
+            
+            
+            <li class="h-card p-author">
+                
+                
+                <a href="/author-kobamaru.html" class="u-url">
+                    <img src="https://github.com/scr1b3s.png" alt="Kobamaru" class="avatar u-photo">
+                    <span class="p-name">Kobamaru</span>
+                </a>
+            </li>
+            
+        
+    </ul>
+</div>
+
+
+      </div>
+
+      <div class="date-tags-container">
+        <div class="content-date">
+          
+
+
+<span class="content-date">
+    <small> Oct  5, 2025 - &#10710; 2 min</small>
+</span>
+
+          
+        </div>
+
+        <ul class="content-tags">
+          
+          
+          
+          <li><a href="/tag-devops.html" class="p-category">devops</a></li>
+          
+          
+          
+          <li><a href="/tag-projetos.html" class="p-category">projetos</a></li>
+          
+          
+          
+          <li><a href="/tag-diarios.html" class="p-category">diarios</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </footer>
   
 </article>
-
-
-
-
 
 
 
