@@ -10,13 +10,13 @@
     <loc>/pages.html</loc>
   </url>
   <url>
-    <loc>/tag-devops.html</loc>
-  </url>
-  <url>
     <loc>/tag-projetos.html</loc>
   </url>
   <url>
     <loc>/tag-diarios.html</loc>
+  </url>
+  <url>
+    <loc>/tag-devops.html</loc>
   </url>
   <url>
     <loc>/tags.html</loc>
@@ -49,13 +49,13 @@
     <loc>/series-blog-pessoal.rss</loc>
   </url>
   <url>
-    <loc>/tag-devops.rss</loc>
-  </url>
-  <url>
     <loc>/tag-projetos.rss</loc>
   </url>
   <url>
     <loc>/tag-diarios.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-devops.rss</loc>
   </url>
   <url>
     <loc>/author-kobamaru.rss</loc>
@@ -67,13 +67,13 @@
     <loc>/pages-1.html</loc>
   </url>
   <url>
-    <loc>/tag-devops-1.html</loc>
-  </url>
-  <url>
     <loc>/tag-projetos-1.html</loc>
   </url>
   <url>
     <loc>/tag-diarios-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-devops-1.html</loc>
   </url>
   <url>
     <loc>/author-kobamaru-1.html</loc>

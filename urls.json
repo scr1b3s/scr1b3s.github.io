@@ -7,9 +7,9 @@
     "/pages.html"
   ],
   "tags": [
-    "/tag-devops.html",
     "/tag-projetos.html",
     "/tag-diarios.html",
+    "/tag-devops.html",
     "/tags.html"
   ],
   "authors": [
@@ -30,17 +30,17 @@
   "feeds": [
     "/index.rss",
     "/series-blog-pessoal.rss",
-    "/tag-devops.rss",
     "/tag-projetos.rss",
     "/tag-diarios.rss",
+    "/tag-devops.rss",
     "/author-kobamaru.rss",
     "/archive-2025.rss"
   ],
   "pagination": [
     "/pages-1.html",
-    "/tag-devops-1.html",
     "/tag-projetos-1.html",
     "/tag-diarios-1.html",
+    "/tag-devops-1.html",
     "/author-kobamaru-1.html",
     "/series-blog-pessoal-1.html",
     "/archive-2025-1.html"
