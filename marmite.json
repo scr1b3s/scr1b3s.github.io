@@ -2,9 +2,9 @@
   "marmite_version": "0.2.6",
   "posts": 0,
   "pages": 2,
-  "generated_at": "2025-10-06 01:36:31.361432269 +00:00",
-  "timestamp": 1759714591,
-  "elapsed_time": 0.033541673,
+  "generated_at": "2025-10-06 01:43:20.930477061 +00:00",
+  "timestamp": 1759715000,
+  "elapsed_time": 0.049846539,
   "config": {
     "name": "Diário de um Escriba",
     "tagline": "As descobertas narradas de um eterno aprendiz",
@@ -85,7 +85,12 @@
       }
     },
     "streams": {},
-    "series": {},
+    "series": {
+      "blog": {
+        "display_name": "Blog Pessoal: A Jornada de partilhar conhecimento.",
+        "description": null
+      }
+    },
     "toc": true,
     "json_feed": false,
     "show_next_prev_links": true,
