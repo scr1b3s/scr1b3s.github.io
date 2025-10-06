@@ -2,9 +2,9 @@
   "marmite_version": "0.2.6",
   "posts": 1,
   "pages": 1,
-  "generated_at": "2025-10-06 02:16:48.489035262 +00:00",
-  "timestamp": 1759717008,
-  "elapsed_time": 0.070315605,
+  "generated_at": "2025-10-06 22:29:42.492899795 +00:00",
+  "timestamp": 1759789782,
+  "elapsed_time": 0.058025702,
   "config": {
     "name": "Diário de um Escriba",
     "tagline": "As descobertas narradas de um eterno aprendiz",
@@ -86,7 +86,7 @@
     },
     "streams": {},
     "series": {
-      "blog": {
+      "blog-pessoal": {
         "display_name": "Blog Pessoal: A Jornada de partilhar conhecimento.",
         "description": "Os assuntos envolvendo o CI/CD deste lugar que você usa pra ler."
       }

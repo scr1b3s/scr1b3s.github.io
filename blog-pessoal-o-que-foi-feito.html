@@ -61,10 +61,10 @@
 
 
         <link rel="alternate" type="application/rss+xml" title="index" href="/index.rss">
-    <link rel="alternate" type="application/rss+xml" title="Blog Pessoal: A Jornada de partilhar conhecimento." href="/series-blog.rss">
+    <link rel="alternate" type="application/rss+xml" title="Blog Pessoal: A Jornada de partilhar conhecimento." href="/series-blog-pessoal.rss">
+    <link rel="alternate" type="application/rss+xml" title="tag: devops" href="/tag-devops.rss">
     <link rel="alternate" type="application/rss+xml" title="tag: projetos" href="/tag-projetos.rss">
     <link rel="alternate" type="application/rss+xml" title="tag: diarios" href="/tag-diarios.rss">
-    <link rel="alternate" type="application/rss+xml" title="tag: devops" href="/tag-devops.rss">
     <link rel="alternate" type="application/rss+xml" title="author: kobamaru" href="/author-kobamaru.rss">
     <link rel="alternate" type="application/rss+xml" title="year: 2025" href="/archive-2025.rss">
     
@@ -189,14 +189,14 @@
 
 
 <span class="content-date">
-    <small> Oct  5, 2025 - &#10710; 2 min</small>
+    <small> Oct  5, 2025 - &#10710; 4 min</small>
 </span>
 
 </div>
 
   
   <div class="content-series">
-    <p><small>Published as part of '<a href="/series-blog.html">Blog Pessoal: A Jornada de partilhar conhecimento.</a>' series.</small></p>
+    <p><small>Published as part of '<a href="/series-blog-pessoal.html">Blog Pessoal: A Jornada de partilhar conhecimento.</a>' series.</small></p>
   </div>
   
   
@@ -206,9 +206,14 @@
     <summary>🗒️</summary>
     <ul>
 <ul>
-<li><a href="#composição-do-projeto">Composição do Projeto:</a></li>
-<li><a href="#fluxo-de-funcionamento">Fluxo de Funcionamento:</a></li>
-<li><a href="#considerações">Considerações:</a></li>
+<li><a href="#motivação">Motivação</a></li>
+<ul>
+<li><a href="#42-e-o-peer-to-peer">42 e o Peer-to-Peer</a></li>
+<li><a href="#o-que-eu-sei">O que eu sei</a></li>
+</ul>
+<li><a href="#composição-do-projeto">Composição do Projeto</a></li>
+<li><a href="#fluxo-de-funcionamento">Fluxo de Funcionamento</a></li>
+<li><a href="#considerações-finais">Considerações Finais</a></li>
 </ul>
 </ul>
 
@@ -219,14 +224,28 @@
   <div class="content-html e-content"><blockquote>
 <p><em>Postagem que serve, basicamente, para que eu possa ter uma visão esquemática do que foi feito com relação ao lançamento/finalização do Projeto &quot;Diário do Escriba&quot;... Porque eu fiz muita coisa na marra, bruteforce, e eu preciso &quot;voltar e buscar&quot;.</em></p>
 </blockquote>
-<h2><a href="#composição-do-projeto" aria-hidden="true" class="anchor" id="composição-do-projeto"></a>Composição do Projeto:</h2>
+<h2><a href="#motivação" aria-hidden="true" class="anchor" id="motivação"></a>Motivação</h2>
+<p>Ninguém mais escreve blogs... É uma prática em decadência. Há várias razões do motivo, mas o que me vem à cabeça, agora, é: Não faz sentido dividir conhecimento e explorar suas próprias capacidades em um contexto de competição desenfreada. Escolher explicitamente dividir o que aprendeu de forma digerível quando se está começando pode soar arrogante... Terceirizar suas decisões é confortável, e dividir fragilidade é visto naturalmente como contra-produtivo.</p>
+<p>Aqui, exploraremos um pouco dos motivos que me levaram a essa decisão:</p>
+<h3><a href="#42-e-o-peer-to-peer" aria-hidden="true" class="anchor" id="42-e-o-peer-to-peer"></a>42 e o Peer-to-Peer</h3>
+<p>Hoje, sou Cadete. Desde o início do meu Processo Seletivo me motiva muito a possibilidade de dividir tudo que aprendemos e produzimos dentro da <em>École 42</em>, uma Escola Livre de Engenharia de Software com foco em Peer-to-Peer Project Based Learning, de forma que meu caminho trilhado pode ser pavimentado de forma mais sólida.</p>
+<p>Aprender com os outros é algo mágico, expor o que você sabe e o que isso te permitiu fazer, pra mim, é a Alma da Programação. E é disso que vem a vontade de escrever o que você lê agora...</p>
+<p>Acredito realmente que a melhor forma de aprender alguma coisa é fazer, sem perder de vista as bases teóricas que fundamentam aquilo que você está fazendo. Do contrário, você anda com uma perna maior que a outra, desequilibrado. Minha escolha pela 42 tem essa motivação:</p>
+<p>Desenvolver projetos é se colocar na posição de fuga do <em>Limbo dos Tutoriais</em>, é o desconforto - ao menos no primeiro momento - de não saber, de verdade, o que fazer depois... E se questionar sempre o que se quer.</p>
+<h3><a href="#o-que-eu-sei" aria-hidden="true" class="anchor" id="o-que-eu-sei"></a>O que eu sei</h3>
+<blockquote>
+<p><em>&quot;Se você não consegue explicar algo simplesmente, você não entendeu aquilo bem o suficiente.&quot;</em></p>
+</blockquote>
+<p>Acredito que a melhor forma de exercitar o conhecimento, e solidificá-lo, é seu compartilhamento a partir da estruturação. Seja pela exposição, seja pelo desenvolvimento de soluções.</p>
+<p>Sendo assim, aqui também ficarão armazenados Diários de Desenvolvimento e de Bordo com o objetivo de facilitar tanto o meu retorno aos processos que ficam parados, porque eu trabalho em muitas coisas ao mesmo tempo, tanto porque o desenvolvimento deles transmite a compreensão de como as coisas funcionam na vida-real.</p>
+<h2><a href="#composição-do-projeto" aria-hidden="true" class="anchor" id="composição-do-projeto"></a>Composição do Projeto</h2>
 <ol>
 <li><em><strong>GitHub Actions:</strong></em> Coordena e Executa o Pipeline de deploy do blog.</li>
 <li><em><strong>Secrets do GitHub:</strong></em> Entregam as credenciais necessárias para que as coisas possam ser feitas, sem eles eu não teria permissão para nada.</li>
 <li><em><strong>Docker:</strong></em> Construímos uma imagem de container personalizada para a subida do blog... Isso se deu porque eu tenho muita ansiedade e odeio ter que esperar 4 minutos para o <code>marmite</code> ser baixado.</li>
-<li>2 Repositórios: Um, minha <code>vault</code> do Obsidian, usada para anotações e reflexões diversas... E outro, a minha <code>home</code> do pages, que é quem &quot;sofre&quot; as consequências da execução do deploy do <code>marmite</code>.</li>
+<li><em><strong>2 Repositórios:</strong></em> Um, minha <code>vault</code> do Obsidian, usada para anotações e reflexões diversas... E outro, a minha <code>home</code> do pages, que é quem &quot;sofre&quot; as consequências da execução do deploy do <code>marmite</code>.</li>
 </ol>
-<h2><a href="#fluxo-de-funcionamento" aria-hidden="true" class="anchor" id="fluxo-de-funcionamento"></a>Fluxo de Funcionamento:</h2>
+<h2><a href="#fluxo-de-funcionamento" aria-hidden="true" class="anchor" id="fluxo-de-funcionamento"></a>Fluxo de Funcionamento</h2>
 <ul>
 <li>Sempre que ocorre um <code>push</code> que acarreta alterações na pasta <code>5_blog</code> (onde eu armazeno o arquivo de configuração e os posts) o <strong>pipeline</strong> é disparado.</li>
 <li>Ele é executado a partir de uma imagem de container própria, uma <code>jammy</code> contendo <code>git</code> e o <code>marmite</code>... isso me economiza valiosos <strong>4 minutos em média.</strong></li>
@@ -238,9 +257,9 @@
 </ul>
 </li>
 </ul>
-<h2><a href="#considerações" aria-hidden="true" class="anchor" id="considerações"></a>Considerações:</h2>
+<h2><a href="#considerações-finais" aria-hidden="true" class="anchor" id="considerações-finais"></a>Considerações Finais</h2>
 <p>Acredito que esse seja um projeto muito legal para começar a desenvolver/rascunhar conhecimentos e prática no campo de DevOps... Por isso, apesar de ser um projeto concluído, o destrinchar dele está ligado ao aprofundamento de algumas coisas importantes... Eventualmente vou voltar pra ele.</p>
-<p>Algo muito bom é que o <code>marmite</code> faz um inventário por mim, arquivos que foram alterados são substituídos e a facilidade/comodidade disso é incrível. Não quero me preocupar com muitas coisas, só escrever, estudar, e desenvolver. Se for interessante, no futuro, posso substituir ele por uma solução própria, mas eu acho difícil isso acontecer.</p>
+<p>Algo muito bom é que <strong>o <code>marmite</code> é uma ferramenta extremamente simples:</strong> Não quero me preocupar com muitas coisas, só escrever, estudar, e desenvolver. Se for interessante, no futuro, posso substituir ele por uma solução própria, mas eu acho difícil isso acontecer.</p>
 </div>
   
   <footer class="data-tags-footer">
@@ -275,7 +294,7 @@
 
 
 <span class="content-date">
-    <small> Oct  5, 2025 - &#10710; 2 min</small>
+    <small> Oct  5, 2025 - &#10710; 4 min</small>
 </span>
 
           
