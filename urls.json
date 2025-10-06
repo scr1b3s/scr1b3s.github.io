@@ -2,7 +2,6 @@
   "posts": [],
   "pages": [
     "/about.html",
-    "/blog-pessoal-o-que-foi-feito.html",
     "/pages.html"
   ],
   "tags": [],
@@ -20,7 +19,7 @@
   ],
   "summary": {
     "posts": 0,
-    "pages": 3,
+    "pages": 2,
     "tags": 0,
     "authors": 0,
     "series": 0,
@@ -30,7 +29,7 @@
     "pagination": 1,
     "file_mappings": 0,
     "misc": 1,
-    "total": 5,
+    "total": 4,
     "meta": {
       "url": "",
       "absolute_urls": false
