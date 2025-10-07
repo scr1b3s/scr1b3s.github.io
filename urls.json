@@ -1,5 +1,6 @@
 {
   "posts": [
+    "/le-sauveteur-o-guarda-vidas-da-piscina.html",
     "/blog-pessoal-o-que-foi-feito.html"
   ],
   "pages": [
@@ -9,7 +10,10 @@
   "tags": [
     "/tag-projetos.html",
     "/tag-diarios.html",
+    "/tag-data-engineering.html",
+    "/tag-python.html",
     "/tag-devops.html",
+    "/tag-platform-engineering.html",
     "/tags.html"
   ],
   "authors": [
@@ -18,6 +22,7 @@
   ],
   "series": [
     "/series-blog-pessoal.html",
+    "/series-le-sauveteur.html",
     "/series.html"
   ],
   "streams": [
@@ -30,9 +35,13 @@
   "feeds": [
     "/index.rss",
     "/series-blog-pessoal.rss",
+    "/series-le-sauveteur.rss",
     "/tag-projetos.rss",
     "/tag-diarios.rss",
+    "/tag-data-engineering.rss",
+    "/tag-python.rss",
     "/tag-devops.rss",
+    "/tag-platform-engineering.rss",
     "/author-kobamaru.rss",
     "/archive-2025.rss"
   ],
@@ -40,9 +49,13 @@
     "/pages-1.html",
     "/tag-projetos-1.html",
     "/tag-diarios-1.html",
+    "/tag-data-engineering-1.html",
+    "/tag-python-1.html",
     "/tag-devops-1.html",
+    "/tag-platform-engineering-1.html",
     "/author-kobamaru-1.html",
     "/series-blog-pessoal-1.html",
+    "/series-le-sauveteur-1.html",
     "/archive-2025-1.html"
   ],
   "file_mappings": [],
@@ -50,18 +63,18 @@
     "/index.html"
   ],
   "summary": {
-    "posts": 1,
+    "posts": 2,
     "pages": 2,
-    "tags": 4,
+    "tags": 7,
     "authors": 2,
-    "series": 2,
+    "series": 3,
     "streams": 1,
     "archives": 2,
-    "feeds": 7,
-    "pagination": 7,
+    "feeds": 11,
+    "pagination": 11,
     "file_mappings": 0,
     "misc": 1,
-    "total": 29,
+    "total": 42,
     "meta": {
       "url": "",
       "absolute_urls": false
