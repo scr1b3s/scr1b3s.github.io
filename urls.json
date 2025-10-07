@@ -10,10 +10,10 @@
   "tags": [
     "/tag-diarios.html",
     "/tag-projetos.html",
+    "/tag-devops.html",
     "/tag-data-engineering.html",
     "/tag-platform-engineering.html",
     "/tag-python.html",
-    "/tag-devops.html",
     "/tags.html"
   ],
   "authors": [
@@ -38,10 +38,10 @@
     "/series-le-sauveteur.rss",
     "/tag-diarios.rss",
     "/tag-projetos.rss",
+    "/tag-devops.rss",
     "/tag-data-engineering.rss",
     "/tag-platform-engineering.rss",
     "/tag-python.rss",
-    "/tag-devops.rss",
     "/author-kobamaru.rss",
     "/archive-2025.rss"
   ],
@@ -49,10 +49,10 @@
     "/pages-1.html",
     "/tag-diarios-1.html",
     "/tag-projetos-1.html",
+    "/tag-devops-1.html",
     "/tag-data-engineering-1.html",
     "/tag-platform-engineering-1.html",
     "/tag-python-1.html",
-    "/tag-devops-1.html",
     "/author-kobamaru-1.html",
     "/series-blog-pessoal-1.html",
     "/series-le-sauveteur-1.html",

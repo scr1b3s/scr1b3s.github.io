@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Diário de um Escriba</title><link>https://</link><description>As descobertas narradas de um eterno aprendiz</description><pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate><lastBuildDate>Tue, 07 Oct 2025 00:11:16 GMT</lastBuildDate><generator>marmite</generator><item><title>Le Sauveteur: O Guarda-Vidas da Piscina</title><link>https:///le-sauveteur-o-guarda-vidas-da-piscina.html</link><description><![CDATA["Porque se a Piscina é Piscine, o Guarda-Vidas só pode ser Sauveteur. Uma exploração de análise, engenharia e mais sobre o Processo Seletivo da École 42."]]></description><author>kobamaru</author><category>python</category><category>data-engineering</category><category>projetos</category><category>diarios</category><category>platform-engineering</category><guid>https:///le-sauveteur-o-guarda-vidas-da-piscina.html</guid><pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate><source url="https://">tag-platform-engineering</source><content:encoded><![CDATA[<h1><a href="#le-sauveteur" aria-hidden="true" class="anchor" id="le-sauveteur"></a>Le Sauveteur</h1>
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Diário de um Escriba</title><link>https://</link><description>As descobertas narradas de um eterno aprendiz</description><pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate><lastBuildDate>Tue, 07 Oct 2025 13:56:30 GMT</lastBuildDate><generator>marmite</generator><item><title>Le Sauveteur: O Guarda-Vidas da Piscina</title><link>https:///le-sauveteur-o-guarda-vidas-da-piscina.html</link><description><![CDATA["Porque se a Piscina é Piscine, o Guarda-Vidas só pode ser Sauveteur. Uma exploração de análise, engenharia e mais sobre o Processo Seletivo da École 42."]]></description><author>kobamaru</author><category>python</category><category>data-engineering</category><category>projetos</category><category>diarios</category><category>platform-engineering</category><guid>https:///le-sauveteur-o-guarda-vidas-da-piscina.html</guid><pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate><source url="https://">tag-platform-engineering</source><content:encoded><![CDATA[<h1><a href="#le-sauveteur" aria-hidden="true" class="anchor" id="le-sauveteur"></a>Le Sauveteur</h1>
 <blockquote>
 <p><em>Uma &quot;pivotagem&quot; de sua proposta original, mas que serve tanto quanto e vai conseguir entregar uma vantagem material, ao invés de um Desafio pelo Desafio: Uma Base de Dados sobre as Piscinas da 42 Rio, que busca alimentar análises críticas e qualitativas sobre o processo primordial de Entrada à École 42.</em></p>
 </blockquote>
 <p>O <em><strong>Le Sauveteur</strong></em> nasceu com a proposta de ser um Sistema de Monitoramento para a Piscina de 2025 da 42 Rio... o que eu permaneço com muita vontade de fazer, mas <strong>que não precisa se limitar a isso</strong>... Além de não ser mais possível ser feito porque hoje, porque a piscina acabou há algum tempo.</p>
+<p>Esse Projeto nasce a partir da vontade de aprofundar conhecimentos técnicos, mas também de tornar transparente e mais facilmente compreensível dados relacionados ao Processo de Entrada de novos alunos na 42 Rio. <strong>Nenhum dado que seja passível de identificação será divulgado no processo de escrita desse Diário. Só serão compartilhadas formas de comunicação que eu usei para me conectar, extrair, manipular, tratar e armazenar Dados que não são de propriedade minha, mas que são abertos a qualquer Cadete da École 42.</strong></p>
 <h2><a href="#requisitosproposta-funcional" aria-hidden="true" class="anchor" id="requisitosproposta-funcional"></a>Requisitos/Proposta Funcional:</h2>
-<p>Construir uma Base de Dados, em Estrutura Medallion, para ser disponibilizada aos Estudantes (Cadetes) da 42 Rio de forma que possam conectar visualizações e consumir de maneira livre, com a premissa de poder ser uma alternativa melhorada, em muito, à da École 42... <strong>Talvez, futuramente, eu construa uma API.</strong></p>
+<p>Construir uma Base de Dados, em Estrutura <em>Medallion</em>, para ser disponibilizada aos Estudantes (Cadetes) da 42 Rio especializada em Dados de Piscine, de forma que possam conectar visualizações e consumir de maneira livre, com a premissa de poder ser uma alternativa melhorada, em muito, à da École 42... <strong>Talvez, em algum momento, eu construa uma API...</strong> Mas é seguro dizer que o desenvolvimento de uma API provavelmente vai ser mais focado no <em><strong>42 Cata-Dado.</strong></em></p>
 <h2><a href="#o-que-buscamos-responder" aria-hidden="true" class="anchor" id="o-que-buscamos-responder"></a>O que Buscamos Responder?</h2>
 <blockquote>
-<p><em>Essas são algumas perguntas que vieram à mente de primeira, você é livre para sugerir outras!</em></p>
+<p><em>Essas são algumas perguntas que vieram à mente de primeira, você é livre para pensar em outras!</em></p>
 </blockquote>
 <ul>
 <li>Quais foram as listas ofensoras de cada piscina?</li>
@@ -18,9 +19,8 @@
 </ul>
 </li>
 <li>Quem fica mais tempo, passa? E quem fica menos tempo?</li>
+<li>Qual a quantidade média de entregas para &quot;passar&quot; das Listas? (Média de Retry por Lista).</li>
+<li>Existe um perfil comum ao Ingressante?</li>
 </ul>
 <h2><a href="#wip-de-quais-dados-eu-preciso-pro-projeto" aria-hidden="true" class="anchor" id="wip-de-quais-dados-eu-preciso-pro-projeto"></a>[WIP] De quais dados eu preciso pro projeto?</h2>
-<ul>
-<li></li>
-</ul>
 ]]></content:encoded></item></channel></rss>
