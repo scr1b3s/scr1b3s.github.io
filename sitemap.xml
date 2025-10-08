@@ -22,13 +22,13 @@
     <loc>/tag-devops.html</loc>
   </url>
   <url>
-    <loc>/tag-data-engineering.html</loc>
-  </url>
-  <url>
     <loc>/tag-platform-engineering.html</loc>
   </url>
   <url>
     <loc>/tag-python.html</loc>
+  </url>
+  <url>
+    <loc>/tag-data-engineering.html</loc>
   </url>
   <url>
     <loc>/tags.html</loc>
@@ -76,13 +76,13 @@
     <loc>/tag-devops.rss</loc>
   </url>
   <url>
-    <loc>/tag-data-engineering.rss</loc>
-  </url>
-  <url>
     <loc>/tag-platform-engineering.rss</loc>
   </url>
   <url>
     <loc>/tag-python.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-data-engineering.rss</loc>
   </url>
   <url>
     <loc>/author-kobamaru.rss</loc>
@@ -103,13 +103,13 @@
     <loc>/tag-devops-1.html</loc>
   </url>
   <url>
-    <loc>/tag-data-engineering-1.html</loc>
-  </url>
-  <url>
     <loc>/tag-platform-engineering-1.html</loc>
   </url>
   <url>
     <loc>/tag-python-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-data-engineering-1.html</loc>
   </url>
   <url>
     <loc>/author-kobamaru-1.html</loc>
