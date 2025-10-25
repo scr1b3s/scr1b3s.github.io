@@ -7,18 +7,18 @@
     <meta name="color-scheme" content="light dark" />
     <meta name="generator" content="Marmite" />
     
-<meta property="og:title" content="Le Sauveteur: O Guarda-Vidas da Piscina">
+<meta property="og:title" content="Phonebook - ADR - Architectural Decision Record">
 
-<meta property="og:description" content="Porque se a Piscina é Piscine, o Guarda-Vidas só pode ser Sauveteur. Uma exploração de análise, enge...">
+<meta property="og:description" content="Decisões arquiteturais e reflexões acerca do desenvolvimento de um projeto simples que se tornou com...">
 
 
-<meta property="og:image" content="/media/le-sauveteur-o-guarda-vidas-da-piscina.banner.jpg">
+<meta property="og:image" content="/media/phonebook-adr-architectural-decision-record.banner.jpg">
 
 
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Diário de um Escriba">
 
-<meta property="article:published_time" content=" 2025-10-06T00:00:00+00:00">
+<meta property="article:published_time" content=" 2025-10-25T00:00:00+00:00">
 
 
 
@@ -28,12 +28,12 @@
     "@type": "BlogPosting",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/le-sauveteur-o-guarda-vidas-da-piscina.html"
+        "@id": "/phonebook-adr-architectural-decision-record.html"
     },
-    "url": "/le-sauveteur-o-guarda-vidas-da-piscina.html",
-    "headline": "Le Sauveteur: O Guarda-Vidas da Piscina",
-    "description": "Porque se a Piscina é Piscine, o Guarda-Vidas só pode ser Sauveteur. Uma exploração de análise, engenharia e mais sobre o Processo Seletivo ...",
-    "image": "/media/le-sauveteur-o-guarda-vidas-da-piscina.banner.jpg",
+    "url": "/phonebook-adr-architectural-decision-record.html",
+    "headline": "Phonebook - ADR - Architectural Decision Record",
+    "description": "Decisões arquiteturais e reflexões acerca do desenvolvimento de um projeto simples que se tornou complicado apenas por teimosia... Vivendo e...",
+    "image": "/media/phonebook-adr-architectural-decision-record.banner.jpg",
     "author": {
         "@type": "Person",
         "name": "Kobamaru",
@@ -47,12 +47,12 @@
             "url": "/"
         }
     },
-    "datePublished": "2025-10-06T00:00:00+00:00"
+    "datePublished": "2025-10-25T00:00:00+00:00"
 }
 </script>
 
 
-    <title>Le Sauveteur: O Guarda-Vidas da Piscina | Diário de um Escriba</title>
+    <title>Phonebook - ADR - Architectural Decision Record | Diário de um Escriba</title>
     <link rel="stylesheet" type="text/css" href="/static/pico.min.css">
     <link rel="stylesheet" type="text/css" href="/static/marmite.css">
     
@@ -182,24 +182,35 @@
             
 
 
-<div class="content-banner-image" style="background-image: url(media/le-sauveteur-o-guarda-vidas-da-piscina.banner.jpg);"></div>
+<div class="content-banner-image" style="background-image: url(media/phonebook-adr-architectural-decision-record.banner.jpg);"></div>
 
 
 <article class="h-entry">
-  <data class="p-name" value="Le Sauveteur: O Guarda-Vidas da Piscina"></data>
-  <a class="u-url" href="/le-sauveteur-o-guarda-vidas-da-piscina.html" style="display: none;"></a>
+  <data class="p-name" value="Phonebook - ADR - Architectural Decision Record"></data>
+  <a class="u-url" href="/phonebook-adr-architectural-decision-record.html" style="display: none;"></a>
   
-  <time class="dt-published" datetime="2025-10-06T00:00:00+00:00" style="display: none;">Oct  6, 2025</time>
-  
-
+  <time class="dt-published" datetime="2025-10-25T00:00:00+00:00" style="display: none;">Oct 25, 2025</time>
   
 
   
 
+  
+
+
+<div class="content-title" id="title">
+    <h1>Phonebook - ADR - Architectural Decision Record</h1> 
+    
+
+
+<span class="content-date">
+    <small> Oct 25, 2025 - &#10710; 1 min</small>
+</span>
+
+</div>
 
   
   <div class="content-series">
-    <p><small>Published as part of '<a href="/series-le-sauveteur.html">Le Sauveteur: O Guarda-Vidas da Piscine.</a>' series.</small></p>
+    <p><small>Published as part of '<a href="/series-rocket-phonebook.html">Rocket - Phonebook: Primeiro Desafio Prático de Python.</a>' series.</small></p>
   </div>
   
   
@@ -208,10 +219,8 @@
     <details>
     <summary>🗒️</summary>
     <ul>
-<li><a href="#le-sauveteur">Le Sauveteur</a></li>
 <ul>
-<li><a href="#requisitosproposta-funcional">Requisitos/Proposta Funcional:</a></li>
-<li><a href="#o-que-buscamos-responder">O que Buscamos Responder?</a></li>
+<li><a href="#introdução">Introdução:</a></li>
 </ul>
 </ul>
 
@@ -219,29 +228,19 @@
   </div>
   
 
-  <div class="content-html e-content"><h1><a href="#le-sauveteur" aria-hidden="true" class="anchor" id="le-sauveteur"></a>Le Sauveteur</h1>
-<blockquote>
-<p><em>Uma &quot;pivotagem&quot; de sua proposta original, mas que serve tanto quanto e vai conseguir entregar uma vantagem material, ao invés de um Desafio pelo Desafio: Uma Base de Dados sobre as Piscinas da 42 Rio, que busca alimentar análises críticas e qualitativas sobre o processo primordial de Entrada à École 42.</em></p>
+  <div class="content-html e-content"><blockquote>
+<p><em>Um compilado de decisões arquiteturais que estão relacionadas a implementação do Desafio Prático de Phonebook da Formação de Python da Rocketseat... Um desafio que não precisava ser complexificado de tal forma, mas que eu escolhi trazer complexidade, porque sim. E agora eu lido com isso.</em></p>
 </blockquote>
-<p>O <em><strong>Le Sauveteur</strong></em> nasceu com a proposta de ser um Sistema de Monitoramento para a Piscina de 2025 da 42 Rio... o que eu permaneço com muita vontade de fazer, mas <strong>que não precisa se limitar a isso</strong>... Além de não ser mais possível ser feito porque hoje, porque a piscina acabou há algum tempo.</p>
-<p>Esse Projeto nasce a partir da vontade de aprofundar conhecimentos técnicos, mas também de tornar transparente e mais facilmente compreensível dados relacionados ao Processo de Entrada de novos alunos na 42 Rio. <strong>Nenhum dado que seja passível de identificação será divulgado no processo de escrita desse Diário. Só serão compartilhadas formas de comunicação que eu usei para me conectar, extrair, manipular, tratar e armazenar Dados que não são de propriedade minha, mas que são abertos a qualquer Cadete da École 42.</strong></p>
-<h2><a href="#requisitosproposta-funcional" aria-hidden="true" class="anchor" id="requisitosproposta-funcional"></a>Requisitos/Proposta Funcional:</h2>
-<p>Construir uma Base de Dados, em Estrutura <em>Medallion</em>, para ser disponibilizada aos Estudantes (Cadetes) da 42 Rio especializada em Dados de Piscine, de forma que possam conectar visualizações e consumir de maneira livre, com a premissa de poder ser uma alternativa melhorada, em muito, à da École 42... <strong>Talvez, em algum momento, eu construa uma API...</strong> Mas é seguro dizer que o desenvolvimento de uma API provavelmente vai ser mais focado no <em><strong>42 Cata-Dado.</strong></em></p>
-<h2><a href="#o-que-buscamos-responder" aria-hidden="true" class="anchor" id="o-que-buscamos-responder"></a>O que Buscamos Responder?</h2>
-<blockquote>
-<p><em>Essas são algumas perguntas que vieram à mente de primeira, você é livre para pensar em outras!</em></p>
-</blockquote>
+<h2><a href="#introdução" aria-hidden="true" class="anchor" id="introdução"></a>Introdução:</h2>
+<p>Implementar uma Lista Telefônica deve ser o projeto mais simples possível: São coisas que qualquer pessoa pode ter contato e, portanto, proporcionam o exercício da <em>Experiência Abstrativa</em> mais clara possível. O desafio é simples:</p>
 <ul>
-<li>Quais foram as listas ofensoras de cada piscina?</li>
-<li>Quanto tempo em média um piscineiro permaneceu logado pela duração da Piscina?
-<ul>
-<li>Especificamente os que passaram.</li>
-<li>Em geral, todos, de fato.</li>
-</ul>
-</li>
-<li>Quem fica mais tempo, passa? E quem fica menos tempo?</li>
-<li>Qual a quantidade média de entregas para &quot;passar&quot; das Listas? (Média de Retry por Lista).</li>
-<li>Existe um perfil comum ao Ingressante?</li>
+<li>Mostrar lista de opções do que é possível fazer com o app e permitir que o usuário digite uma escolha para iniciar a aplicação.</li>
+<li>Implementar funcionalidade para adicionar um contato (Nome, Telefone, Email, Favorito).</li>
+<li>Desenvolver visualização da lista de contatos cadastrados.</li>
+<li>Criar funcionalidade para editar um contato existente.</li>
+<li>Implementar opção para marcar/desmarcar um contato como favorito.</li>
+<li>Desenvolver visualização da lista de contatos favoritos.</li>
+<li>Criar funcionalidade para apagar um contato.</li>
 </ul>
 </div>
   
@@ -277,7 +276,7 @@
 
 
 <span class="content-date">
-    <small> Oct  6, 2025 - &#10710; 2 min</small>
+    <small> Oct 25, 2025 - &#10710; 1 min</small>
 </span>
 
           
@@ -291,19 +290,15 @@
           
           
           
-          <li><a href="/tag-data-engineering.html" class="p-category">data-engineering</a></li>
-          
-          
-          
           <li><a href="/tag-projetos.html" class="p-category">projetos</a></li>
           
           
           
-          <li><a href="/tag-diarios.html" class="p-category">diarios</a></li>
+          <li><a href="/tag-back-end.html" class="p-category">back-end</a></li>
           
           
           
-          <li><a href="/tag-platform-engineering.html" class="p-category">platform-engineering</a></li>
+          <li><a href="/tag-adr.html" class="p-category">adr</a></li>
           
         </ul>
       </div>

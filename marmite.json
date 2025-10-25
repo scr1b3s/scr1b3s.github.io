@@ -1,10 +1,10 @@
 {
   "marmite_version": "0.2.6",
-  "posts": 3,
-  "pages": 2,
-  "generated_at": "2025-10-25 20:54:03.952962510 +00:00",
-  "timestamp": 1761425643,
-  "elapsed_time": 2.228676154,
+  "posts": 4,
+  "pages": 1,
+  "generated_at": "2025-10-25 21:00:57.683895264 +00:00",
+  "timestamp": 1761426057,
+  "elapsed_time": 1.546936359,
   "config": {
     "name": "Diário de um Escriba",
     "tagline": "As descobertas narradas de um eterno aprendiz",
@@ -86,6 +86,10 @@
     },
     "streams": {},
     "series": {
+      "rocket-phonebook": {
+        "display_name": "Rocket - Phonebook: Primeiro Desafio Prático de Python.",
+        "description": "Desenvolvimento de CLI para gerenciamento de uma Lista de Contatos utilizando Python, reflexões, aprendizados e coisas mais."
+      },
       "le-sauveteur": {
         "display_name": "Le Sauveteur: O Guarda-Vidas da Piscine.",
         "description": "Uma exploração de análise, e engenharia de dados sobre a Piscine da École 42."
@@ -93,6 +97,10 @@
       "blog-pessoal": {
         "display_name": "Blog Pessoal: A Jornada de partilhar conhecimento.",
         "description": "Os assuntos envolvendo o CI/CD deste lugar que você usa pra ler."
+      },
+      "backend-roadmap": {
+        "display_name": "Back-End Roadmap: Aprendendo em Público.",
+        "description": "Desenvolvimento dos assuntos abordados no Roadmap de Back-End que pode ser encontrado na Roadmap.sh."
       }
     },
     "toc": true,

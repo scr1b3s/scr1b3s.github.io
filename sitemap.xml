@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/phonebook-adr-architectural-decision-record.html</loc>
+  </url>
+  <url>
     <loc>/estruturac-a-o-estudos-universita-rios.html</loc>
   </url>
   <url>
@@ -13,9 +16,6 @@
     <loc>/about.html</loc>
   </url>
   <url>
-    <loc>/tutorial-phonebook-adr-architectural-decision-record.html</loc>
-  </url>
-  <url>
     <loc>/pages.html</loc>
   </url>
   <url>
@@ -25,22 +25,28 @@
     <loc>/tag-diarios.html</loc>
   </url>
   <url>
+    <loc>/tag-python.html</loc>
+  </url>
+  <url>
     <loc>/tag-uff.html</loc>
   </url>
   <url>
-    <loc>/tag-devops.html</loc>
-  </url>
-  <url>
-    <loc>/tag-transparencia.html</loc>
+    <loc>/tag-adr.html</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering.html</loc>
   </url>
   <url>
+    <loc>/tag-devops.html</loc>
+  </url>
+  <url>
+    <loc>/tag-back-end.html</loc>
+  </url>
+  <url>
     <loc>/tag-data-engineering.html</loc>
   </url>
   <url>
-    <loc>/tag-python.html</loc>
+    <loc>/tag-transparencia.html</loc>
   </url>
   <url>
     <loc>/tags.html</loc>
@@ -56,6 +62,9 @@
   </url>
   <url>
     <loc>/series-le-sauveteur.html</loc>
+  </url>
+  <url>
+    <loc>/series-rocket-phonebook.html</loc>
   </url>
   <url>
     <loc>/series-transparencia-estudos.html</loc>
@@ -82,6 +91,9 @@
     <loc>/series-le-sauveteur.rss</loc>
   </url>
   <url>
+    <loc>/series-rocket-phonebook.rss</loc>
+  </url>
+  <url>
     <loc>/series-transparencia-estudos.rss</loc>
   </url>
   <url>
@@ -91,22 +103,28 @@
     <loc>/tag-diarios.rss</loc>
   </url>
   <url>
+    <loc>/tag-python.rss</loc>
+  </url>
+  <url>
     <loc>/tag-uff.rss</loc>
   </url>
   <url>
-    <loc>/tag-devops.rss</loc>
-  </url>
-  <url>
-    <loc>/tag-transparencia.rss</loc>
+    <loc>/tag-adr.rss</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering.rss</loc>
   </url>
   <url>
+    <loc>/tag-devops.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-back-end.rss</loc>
+  </url>
+  <url>
     <loc>/tag-data-engineering.rss</loc>
   </url>
   <url>
-    <loc>/tag-python.rss</loc>
+    <loc>/tag-transparencia.rss</loc>
   </url>
   <url>
     <loc>/author-kobamaru.rss</loc>
@@ -124,22 +142,28 @@
     <loc>/tag-diarios-1.html</loc>
   </url>
   <url>
+    <loc>/tag-python-1.html</loc>
+  </url>
+  <url>
     <loc>/tag-uff-1.html</loc>
   </url>
   <url>
-    <loc>/tag-devops-1.html</loc>
-  </url>
-  <url>
-    <loc>/tag-transparencia-1.html</loc>
+    <loc>/tag-adr-1.html</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering-1.html</loc>
   </url>
   <url>
+    <loc>/tag-devops-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-back-end-1.html</loc>
+  </url>
+  <url>
     <loc>/tag-data-engineering-1.html</loc>
   </url>
   <url>
-    <loc>/tag-python-1.html</loc>
+    <loc>/tag-transparencia-1.html</loc>
   </url>
   <url>
     <loc>/author-kobamaru-1.html</loc>
@@ -149,6 +173,9 @@
   </url>
   <url>
     <loc>/series-le-sauveteur-1.html</loc>
+  </url>
+  <url>
+    <loc>/series-rocket-phonebook-1.html</loc>
   </url>
   <url>
     <loc>/series-transparencia-estudos-1.html</loc>
