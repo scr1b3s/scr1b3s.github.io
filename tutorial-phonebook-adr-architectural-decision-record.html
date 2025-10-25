@@ -7,20 +7,57 @@
     <meta name="color-scheme" content="light dark" />
     <meta name="generator" content="Marmite" />
     
-    <meta property="og:title" content="Diário de um Escriba">
-    <meta property="og:description" content="As descobertas narradas de um eterno aprendiz">
+<meta property="og:title" content="Phonebook - ADR - Architectural Decision Record">
+
+<meta property="og:description" content="change me!">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Diário de um Escriba">
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/tutorial-phonebook-adr-architectural-decision-record.html"
+    },
+    "url": "/tutorial-phonebook-adr-architectural-decision-record.html",
+    "headline": "Phonebook - ADR - Architectural Decision Record",
+    "description": "change me!",
     
+    "author": {
+        "@type": "Person",
+        "name": "Kobamaru",
+        "url": "/author-kobamaru.html",
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Diário de um Escriba",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/"
+        }
+    },
     
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Diário de um Escriba">
-    
-    
-    <title>Archive | Diário de um Escriba</title>
+}
+</script>
+
+
+    <title>Phonebook - ADR - Architectural Decision Record | Diário de um Escriba</title>
     <link rel="stylesheet" type="text/css" href="/static/pico.min.css">
     <link rel="stylesheet" type="text/css" href="/static/marmite.css">
     
     <link rel="stylesheet" type="text/css" href="/static/custom.css">
     
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/github.min.css" id="highlightjs-theme" />
+
+
+
         <link rel="alternate" type="application/rss+xml" title="index" href="/index.rss">
     <link rel="alternate" type="application/rss+xml" title="Blog Pessoal: A Jornada de partilhar conhecimento." href="/series-blog-pessoal.rss">
     <link rel="alternate" type="application/rss+xml" title="Le Sauveteur: O Guarda-Vidas da Piscine." href="/series-le-sauveteur.rss">
@@ -110,7 +147,7 @@
                       
                     <li>
                         
-                        <button class="menu-item active selected">Archive</button>
+                        <a class="menu-item secondary"  href="/archive.html">Archive</a>
                         
                     </li>
                     
@@ -136,40 +173,77 @@
         
         <section class="main-content">
             
-        <div class="list-title">
-            <article><strong> Archive </strong></article>
-        </div>
-        <article class="group-details h-feed">
-            <h1 class="p-name" style="display: none;">Archive</h1>
-            
-            <details open>
-                <summary role="button" class="outline contrast archive-group-title">2025 <sup>3</sup></summary>
-                <ul>
-                
-                    <li class="h-entry">
-                        <a href="/estruturac-a-o-estudos-universita-rios.html" class="u-url p-name">Estruturação - Estudos Universitários</a>
-                        <small><time class="dt-published" datetime="2025-10-15T00:00:00+00:00">2025-10-15</time></small>
-                    </li>
-                
-                    <li class="h-entry">
-                        <a href="/le-sauveteur-o-guarda-vidas-da-piscina.html" class="u-url p-name">Le Sauveteur: O Guarda-Vidas da Piscina</a>
-                        <small><time class="dt-published" datetime="2025-10-06T00:00:00+00:00">2025-10-06</time></small>
-                    </li>
-                
-                    <li class="h-entry">
-                        <a href="/blog-pessoal-o-que-foi-feito.html" class="u-url p-name">Blog Pessoal: O que foi feito</a>
-                        <small><time class="dt-published" datetime="2025-10-05T00:00:00+00:00">2025-10-05</time></small>
-                    </li>
-                
-                
-                
-                
-                
-                
-                <li><a href="/archive-2025.html">more &rarr;</a></li>
-            </ul>
-            </details>
-        </article>
+
+
+
+<article class="h-entry">
+  <data class="p-name" value="Phonebook - ADR - Architectural Decision Record"></data>
+  <a class="u-url" href="/tutorial-phonebook-adr-architectural-decision-record.html" style="display: none;"></a>
+  
+
+  
+
+  
+
+
+<div class="content-title" id="title">
+    <h1>Phonebook - ADR - Architectural Decision Record</h1> 
+    
+
+
+<span class="content-date">
+    <small></small>
+</span>
+
+</div>
+
+  
+  <div class="content-series">
+    <p><small>Published as part of '<a href="/series-change-me.html">change-me</a>' series.</small></p>
+  </div>
+  
+  
+  <div class="content-toc">
+    <a href="#" id="toc"></a>
+    <details>
+    <summary>🗒️</summary>
+    <ul>
+<ul>
+<li><a href="#introdução">Introdução:</a></li>
+</ul>
+</ul>
+
+    </details>
+  </div>
+  
+
+  <div class="content-html e-content"><blockquote>
+<p><em>Um compilado de decisões arquiteturais que estão relacionadas a implementação do Desafio Prático de Phonebook da Formação de Python da Rocketseat... Um desafio que não precisava ser complexificado de tal forma, mas que eu escolhi trazer complexidade, porque sim. E agora eu lido com isso.</em></p>
+</blockquote>
+<h2><a href="#introdução" aria-hidden="true" class="anchor" id="introdução"></a>Introdução:</h2>
+<p>Implementar uma Lista Telefônica deve ser o projeto mais simples possível: São coisas que qualquer pessoa pode ter contato e, portanto, proporcionam o exercício da <em>Experiência Abstrativa</em> mais clara possível. O desafio é simples:</p>
+<ul>
+<li>Mostrar lista de opções do que é possível fazer com o app e permitir que o usuário digite uma escolha para iniciar a aplicação.</li>
+<li>Implementar funcionalidade para adicionar um contato (Nome, Telefone, Email, Favorito).</li>
+<li>Desenvolver visualização da lista de contatos cadastrados.</li>
+<li>Criar funcionalidade para editar um contato existente.</li>
+<li>Implementar opção para marcar/desmarcar um contato como favorito.</li>
+<li>Desenvolver visualização da lista de contatos favoritos.</li>
+<li>Criar funcionalidade para apagar um contato.</li>
+</ul>
+</div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+
 
         </section>
         
@@ -179,6 +253,7 @@
         </footer>
         
     </main>
+
     <script src="/static/marmite.js"></script>
     <script src="/static/custom.js"></script>
     
@@ -186,5 +261,12 @@
     
     
     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
+<script>
+  hljs.highlightAll();
+</script>
+
+
+
 </body>
 </html>

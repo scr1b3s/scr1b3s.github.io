@@ -1,19 +1,23 @@
 {
   "posts": [
+    "/estruturac-a-o-estudos-universita-rios.html",
     "/le-sauveteur-o-guarda-vidas-da-piscina.html",
     "/blog-pessoal-o-que-foi-feito.html"
   ],
   "pages": [
     "/about.html",
+    "/tutorial-phonebook-adr-architectural-decision-record.html",
     "/pages.html"
   ],
   "tags": [
-    "/tag-diarios.html",
     "/tag-projetos.html",
+    "/tag-diarios.html",
+    "/tag-uff.html",
     "/tag-devops.html",
+    "/tag-transparencia.html",
     "/tag-platform-engineering.html",
-    "/tag-python.html",
     "/tag-data-engineering.html",
+    "/tag-python.html",
     "/tags.html"
   ],
   "authors": [
@@ -23,6 +27,7 @@
   "series": [
     "/series-blog-pessoal.html",
     "/series-le-sauveteur.html",
+    "/series-transparencia-estudos.html",
     "/series.html"
   ],
   "streams": [
@@ -36,26 +41,32 @@
     "/index.rss",
     "/series-blog-pessoal.rss",
     "/series-le-sauveteur.rss",
-    "/tag-diarios.rss",
+    "/series-transparencia-estudos.rss",
     "/tag-projetos.rss",
+    "/tag-diarios.rss",
+    "/tag-uff.rss",
     "/tag-devops.rss",
+    "/tag-transparencia.rss",
     "/tag-platform-engineering.rss",
-    "/tag-python.rss",
     "/tag-data-engineering.rss",
+    "/tag-python.rss",
     "/author-kobamaru.rss",
     "/archive-2025.rss"
   ],
   "pagination": [
     "/pages-1.html",
-    "/tag-diarios-1.html",
     "/tag-projetos-1.html",
+    "/tag-diarios-1.html",
+    "/tag-uff-1.html",
     "/tag-devops-1.html",
+    "/tag-transparencia-1.html",
     "/tag-platform-engineering-1.html",
-    "/tag-python-1.html",
     "/tag-data-engineering-1.html",
+    "/tag-python-1.html",
     "/author-kobamaru-1.html",
     "/series-blog-pessoal-1.html",
     "/series-le-sauveteur-1.html",
+    "/series-transparencia-estudos-1.html",
     "/archive-2025-1.html"
   ],
   "file_mappings": [],
@@ -63,18 +74,18 @@
     "/index.html"
   ],
   "summary": {
-    "posts": 2,
-    "pages": 2,
-    "tags": 7,
+    "posts": 3,
+    "pages": 3,
+    "tags": 9,
     "authors": 2,
-    "series": 3,
+    "series": 4,
     "streams": 1,
     "archives": 2,
-    "feeds": 11,
-    "pagination": 11,
+    "feeds": 14,
+    "pagination": 14,
     "file_mappings": 0,
     "misc": 1,
-    "total": 42,
+    "total": 53,
     "meta": {
       "url": "",
       "absolute_urls": false
