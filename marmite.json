@@ -2,9 +2,9 @@
   "marmite_version": "0.2.6",
   "posts": 5,
   "pages": 1,
-  "generated_at": "2025-10-26 20:45:24.859581793 +00:00",
-  "timestamp": 1761511524,
-  "elapsed_time": 4.960870633,
+  "generated_at": "2025-10-26 20:52:43.853679627 +00:00",
+  "timestamp": 1761511963,
+  "elapsed_time": 8.570713209,
   "config": {
     "name": "Diário de um Escriba",
     "tagline": "As descobertas narradas de um eterno aprendiz",
@@ -86,21 +86,21 @@
     },
     "streams": {},
     "series": {
-      "le-sauveteur": {
-        "display_name": "Le Sauveteur: O Guarda-Vidas da Piscine.",
-        "description": "Uma exploração de análise, e engenharia de dados sobre a Piscine da École 42."
-      },
       "blog-pessoal": {
         "display_name": "Blog Pessoal: A Jornada de partilhar conhecimento.",
         "description": "Os assuntos envolvendo o CI/CD deste lugar que você usa pra ler."
       },
-      "rocket-phonebook": {
-        "display_name": "Rocket - Phonebook: Primeiro Desafio Prático de Python.",
-        "description": "Desenvolvimento de CLI para gerenciamento de uma Lista de Contatos utilizando Python, reflexões, aprendizados e coisas mais."
+      "le-sauveteur": {
+        "display_name": "Le Sauveteur: O Guarda-Vidas da Piscine.",
+        "description": "Uma exploração de análise, e engenharia de dados sobre a Piscine da École 42."
       },
       "backend-roadmap": {
         "display_name": "Back-End Roadmap: Aprendendo em Público.",
         "description": "Desenvolvimento dos assuntos abordados no Roadmap de Back-End que pode ser encontrado na Roadmap.sh."
+      },
+      "rocket-phonebook": {
+        "display_name": "Rocket - Phonebook: Primeiro Desafio Prático de Python.",
+        "description": "Desenvolvimento de CLI para gerenciamento de uma Lista de Contatos utilizando Python, reflexões, aprendizados e coisas mais."
       }
     },
     "toc": true,

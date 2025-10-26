@@ -28,19 +28,19 @@
     <loc>/tag-python.html</loc>
   </url>
   <url>
-    <loc>/tag-adr.html</loc>
-  </url>
-  <url>
-    <loc>/tag-oop.html</loc>
+    <loc>/tag-back-end.html</loc>
   </url>
   <url>
     <loc>/tag-diarios.html</loc>
   </url>
   <url>
-    <loc>/tag-back-end.html</loc>
+    <loc>/tag-oop.html</loc>
   </url>
   <url>
-    <loc>/tag-uff.html</loc>
+    <loc>/tag-adr.html</loc>
+  </url>
+  <url>
+    <loc>/tag-transparencia.html</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering.html</loc>
@@ -49,7 +49,7 @@
     <loc>/tag-devops.html</loc>
   </url>
   <url>
-    <loc>/tag-transparencia.html</loc>
+    <loc>/tag-uff.html</loc>
   </url>
   <url>
     <loc>/tag-data-engineering.html</loc>
@@ -109,19 +109,19 @@
     <loc>/tag-python.rss</loc>
   </url>
   <url>
-    <loc>/tag-adr.rss</loc>
-  </url>
-  <url>
-    <loc>/tag-oop.rss</loc>
+    <loc>/tag-back-end.rss</loc>
   </url>
   <url>
     <loc>/tag-diarios.rss</loc>
   </url>
   <url>
-    <loc>/tag-back-end.rss</loc>
+    <loc>/tag-oop.rss</loc>
   </url>
   <url>
-    <loc>/tag-uff.rss</loc>
+    <loc>/tag-adr.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-transparencia.rss</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering.rss</loc>
@@ -130,7 +130,7 @@
     <loc>/tag-devops.rss</loc>
   </url>
   <url>
-    <loc>/tag-transparencia.rss</loc>
+    <loc>/tag-uff.rss</loc>
   </url>
   <url>
     <loc>/tag-data-engineering.rss</loc>
@@ -151,19 +151,19 @@
     <loc>/tag-python-1.html</loc>
   </url>
   <url>
-    <loc>/tag-adr-1.html</loc>
-  </url>
-  <url>
-    <loc>/tag-oop-1.html</loc>
+    <loc>/tag-back-end-1.html</loc>
   </url>
   <url>
     <loc>/tag-diarios-1.html</loc>
   </url>
   <url>
-    <loc>/tag-back-end-1.html</loc>
+    <loc>/tag-oop-1.html</loc>
   </url>
   <url>
-    <loc>/tag-uff-1.html</loc>
+    <loc>/tag-adr-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-transparencia-1.html</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering-1.html</loc>
@@ -172,7 +172,7 @@
     <loc>/tag-devops-1.html</loc>
   </url>
   <url>
-    <loc>/tag-transparencia-1.html</loc>
+    <loc>/tag-uff-1.html</loc>
   </url>
   <url>
     <loc>/tag-data-engineering-1.html</loc>
