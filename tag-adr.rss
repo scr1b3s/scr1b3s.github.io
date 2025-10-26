@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Diário de um Escriba</title><link>https://</link><description>As descobertas narradas de um eterno aprendiz</description><pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate><lastBuildDate>Sat, 25 Oct 2025 21:03:30 GMT</lastBuildDate><generator>marmite</generator><item><title>Phonebook - Architectural Decision Record</title><link>https:///phonebook-architectural-decision-record.html</link><description><![CDATA["Decisões arquiteturais e reflexões acerca do desenvolvimento de um projeto simples que se tornou complicado apenas por teimosia... Vivendo e aprendendo, I guess?"]]></description><author>kobamaru</author><category>python</category><category>projetos</category><category>back-end</category><category>adr</category><guid>https:///phonebook-architectural-decision-record.html</guid><pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate><source url="https://">tag-adr</source><content:encoded><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Diário de um Escriba</title><link>https://</link><description>As descobertas narradas de um eterno aprendiz</description><pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate><lastBuildDate>Sun, 26 Oct 2025 20:45:24 GMT</lastBuildDate><generator>marmite</generator><item><title>Implementação da CLI - ADR</title><link>https:///implementac-a-o-da-cli-adr.html</link><description><![CDATA["Entenda como eu implementei minha primeira CLI e aprontei altas confusões."]]></description><author>kobamaru</author><category>python</category><category>projetos</category><category>back-end</category><category>adr</category><category>oop</category><guid>https:///implementac-a-o-da-cli-adr.html</guid><pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate><source url="https://">tag-adr</source><content:encoded><![CDATA[<blockquote>
+<p><em>Desenvolvimento do Phonebook no aspecto da CLI, escolhas de Biblioteca e Arquiteturais, além de considerações específicas que podem ser relevantes tanto para este Projeto quanto outros...</em></p>
+</blockquote>
+]]></content:encoded></item><item><title>Phonebook - Architectural Decision Record</title><link>https:///phonebook-architectural-decision-record.html</link><description><![CDATA["Decisões arquiteturais e reflexões acerca do desenvolvimento de um projeto simples que se tornou complicado apenas por teimosia... Vivendo e aprendendo, I guess?"]]></description><author>kobamaru</author><category>python</category><category>projetos</category><category>back-end</category><category>adr</category><category>oop</category><guid>https:///phonebook-architectural-decision-record.html</guid><pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate><source url="https://">tag-adr</source><content:encoded><![CDATA[<blockquote>
 <p><em>Um compilado de decisões arquiteturais que estão relacionadas a implementação do Desafio Prático de Phonebook da Formação de Python da Rocketseat... Um desafio que não precisava ser complexificado de tal forma, mas que eu escolhi trazer complexidade, porque sim. E agora eu lido com isso.</em></p>
 </blockquote>
 <h2><a href="#introdução" aria-hidden="true" class="anchor" id="introdução"></a>Introdução:</h2>
+<hr />
 <p>Implementar uma Lista Telefônica deve ser o projeto mais simples possível: São coisas que qualquer pessoa pode ter contato e, portanto, proporcionam o exercício da <em>Experiência Abstrativa</em> mais clara possível. O desafio é simples:</p>
 <ul>
 <li>Mostrar lista de opções do que é possível fazer com o app e permitir que o usuário digite uma escolha para iniciar a aplicação.</li>
@@ -10,6 +14,28 @@
 <li>Criar funcionalidade para editar um contato existente.</li>
 <li>Implementar opção para marcar/desmarcar um contato como favorito.</li>
 <li>Desenvolver visualização da lista de contatos favoritos.</li>
-<li>Criar funcionalidade para apagar um contato.</li>
+<li>Criar funcionalidade para apagar um contato.
+Porém, <strong>como todo programador metido a besta</strong>, eu precisava que a complexidade fosse elevada - a &quot;régua metafórica&quot;, o &quot;sarrafo metafórico&quot;, precisava subir - A implementação então passaria a ser uma <em><strong>CLI</strong></em>, Command-Line Interface, <strong>voltada a realizar o gerenciamento de uma Lista de Contatos primeiro utilizando um arquivo <code>.json</code> local, depois uma instância de Banco de Dados SQLite.</strong> <strong>Curto e grosso:</strong> Estamos construindo um <code>CRUD</code>.</li>
 </ul>
+<h2><a href="#implementação-inicial-classes--métodos" aria-hidden="true" class="anchor" id="implementação-inicial-classes--métodos"></a>Implementação Inicial: Classes &amp; Métodos</h2>
+<hr />
+<p>Contextualizando: Toda Lista Telefônica contém Contatos... A Lista em si é uma Classe, e os Contatos contidos nela também, cada uma com seus métodos e atributos:</p>
+<ul>
+<li><strong>Contatos,</strong> a Classe dos dados de contato que possuímos, <strong>contém os atributos</strong> que serão atualizados e/ou alterados pela <em>&quot;Interface&quot;</em> dela: <strong>a Lista-Telefônica:</strong>
+<ul>
+<li><strong>Id:</strong> Identificação única, UUID4, que identifica a entrada do Usuário.</li>
+<li><strong>Favorito:</strong> Um booleano, se <code>True</code> aquele Usuário é Favorito, do contrário não.</li>
+</ul>
+</li>
+<li><strong>Lista-Telefônica segura uma lista contendo Objetos do Tipo Contato</strong> e contém os métodos capazes de fazer a chamada para alterar e salvar essa lista como uma lista em <code>.json</code>. <strong>Ela também é uma Interface que invoca o método de alteração de atributos, pertencente a Contato.</strong>
+<ul>
+<li><code>C:</code> <strong>Criamos um usuário</strong>, inserimos uma linha no Banco de Dados ou Escrevemos no arquivo de persistência.</li>
+<li><code>R:</code> <strong>Leitura de usuário</strong>, a partir de um parâmetro fazemos uma varredura dos contatos correspondentes... Se chamarmos o comando <code>fav</code> o valor do atributo é <code>favorito</code> e não recebemos argumentos...</li>
+<li><code>U:</code> <strong>Atualizar usuário</strong>, fazemos uma busca, e de acordo com a busca vamos bater quais são os usuários afetados pela alteração. Idealmente você vai conseguir resgatar o UUID daquele usuário que deseja alterar e salvar essa alteração de forma a minimizar efeitos colaterais.</li>
+<li><code>D:</code> Deletar usuário, pelos mesmos parâmetros nós conseguimos verificar quais são os usuários que precisarão ser deletados.</li>
+</ul>
+</li>
+</ul>
+<h2><a href="#" aria-hidden="true" class="anchor" id=""></a></h2>
+<hr />
 ]]></content:encoded></item></channel></rss>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/implementac-a-o-da-cli-adr.html</loc>
+  </url>
+  <url>
     <loc>/phonebook-architectural-decision-record.html</loc>
   </url>
   <url>
@@ -25,13 +28,19 @@
     <loc>/tag-python.html</loc>
   </url>
   <url>
+    <loc>/tag-adr.html</loc>
+  </url>
+  <url>
+    <loc>/tag-oop.html</loc>
+  </url>
+  <url>
     <loc>/tag-diarios.html</loc>
   </url>
   <url>
-    <loc>/tag-data-engineering.html</loc>
+    <loc>/tag-back-end.html</loc>
   </url>
   <url>
-    <loc>/tag-back-end.html</loc>
+    <loc>/tag-uff.html</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering.html</loc>
@@ -43,10 +52,7 @@
     <loc>/tag-transparencia.html</loc>
   </url>
   <url>
-    <loc>/tag-uff.html</loc>
-  </url>
-  <url>
-    <loc>/tag-adr.html</loc>
+    <loc>/tag-data-engineering.html</loc>
   </url>
   <url>
     <loc>/tags.html</loc>
@@ -103,13 +109,19 @@
     <loc>/tag-python.rss</loc>
   </url>
   <url>
+    <loc>/tag-adr.rss</loc>
+  </url>
+  <url>
+    <loc>/tag-oop.rss</loc>
+  </url>
+  <url>
     <loc>/tag-diarios.rss</loc>
   </url>
   <url>
-    <loc>/tag-data-engineering.rss</loc>
+    <loc>/tag-back-end.rss</loc>
   </url>
   <url>
-    <loc>/tag-back-end.rss</loc>
+    <loc>/tag-uff.rss</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering.rss</loc>
@@ -121,10 +133,7 @@
     <loc>/tag-transparencia.rss</loc>
   </url>
   <url>
-    <loc>/tag-uff.rss</loc>
-  </url>
-  <url>
-    <loc>/tag-adr.rss</loc>
+    <loc>/tag-data-engineering.rss</loc>
   </url>
   <url>
     <loc>/author-kobamaru.rss</loc>
@@ -142,13 +151,19 @@
     <loc>/tag-python-1.html</loc>
   </url>
   <url>
+    <loc>/tag-adr-1.html</loc>
+  </url>
+  <url>
+    <loc>/tag-oop-1.html</loc>
+  </url>
+  <url>
     <loc>/tag-diarios-1.html</loc>
   </url>
   <url>
-    <loc>/tag-data-engineering-1.html</loc>
+    <loc>/tag-back-end-1.html</loc>
   </url>
   <url>
-    <loc>/tag-back-end-1.html</loc>
+    <loc>/tag-uff-1.html</loc>
   </url>
   <url>
     <loc>/tag-platform-engineering-1.html</loc>
@@ -160,10 +175,7 @@
     <loc>/tag-transparencia-1.html</loc>
   </url>
   <url>
-    <loc>/tag-uff-1.html</loc>
-  </url>
-  <url>
-    <loc>/tag-adr-1.html</loc>
+    <loc>/tag-data-engineering-1.html</loc>
   </url>
   <url>
     <loc>/author-kobamaru-1.html</loc>
